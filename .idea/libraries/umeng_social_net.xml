@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="umeng_social_net">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/umeng/libs/umeng_social_net.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

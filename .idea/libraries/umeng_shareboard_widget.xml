@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="umeng_shareboard_widget">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/umeng/libs/umeng_shareboard_widget.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
