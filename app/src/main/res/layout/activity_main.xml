@@ -29,4 +29,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/video" />
+
+    <Button
+        android:text="login_sina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_sina" />
+
+    <Button
+        android:text="login_qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_qq" />
+
+    <Button
+        android:text="login_weixin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_weixin" />
 </LinearLayout>
