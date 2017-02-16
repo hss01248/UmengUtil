@@ -31,7 +31,7 @@ shareMusic(Activity activity, final String uid,
                                   String targetUrl, final ShareCallback callback)
                                   
 shareVideo(Activity activity, final String uid,
-                                  String title, String desc, String thumbUrl, String musicUrl,
+                                  String title, String desc, String thumbUrl, String videoUrl,
                                   String targetUrl, final ShareCallback callback)
 ```
 
@@ -88,6 +88,17 @@ UmengUtil.loginByWeixin(this, new AuthCallback<WeixinInfo>() {
 })
 
 
+```
+
+## 包路径下建立微信的activity
+
+包名路径下建立一个package:wxapi
+
+然后在这个包内建立一个空的activity:(继承WXCallbackActivity)
+
+```
+public class WXEntryActivity extends WXCallbackActivity {
+}
 ```
 
 ## debug模式下也让apk装正式签名文件-gradle配置
