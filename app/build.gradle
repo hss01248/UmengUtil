@@ -11,14 +11,14 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         manifestPlaceholders = [UMENG_CHANNEL_VALUE : "androidmarket",
-                                UMENG_APPKEY_VALUE : "560a579a67e58ef057000eef"]
+                                UMENG_APPKEY_VALUE : "145814210"]
     }
     signingConfigs {
         release {
-            storeFile file("qxinlikeystore.jks")
-            storePassword "qxinli88851266"
-            keyAlias "qxinli"
-            keyPassword "q88851266"
+            storeFile file("18512.jks")
+            storePassword "4189151052"
+            keyAlias "4589456152"
+            keyPassword "jhiojio"
         }
     }
     buildTypes {
